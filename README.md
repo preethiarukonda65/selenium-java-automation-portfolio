@@ -24,20 +24,20 @@ SauceDemo is a sample e- commerce web application used to automate:
 * Complete checkout flow
 
 🧱 Framework Architecture
-src/test/java
- ├── base
- │    └── BaseTest.java
- ├── pages
- │    ├── LoginPage.java
- │    ├── ProductsPage.java
- │    ├── CartPage.java
- │    ├── CheckoutInformationPage.java
- │    ├── CheckoutOverviewPage.java
- │    └── CheckoutCompletePage.java
- ├── tests
- │    ├── LoginTests.java
- │    ├── CartTests.java
- │    └── CheckoutTests.java
+* src/test/java
+* ├── base
+* │    └── BaseTest.java
+* ├── pages
+* │    ├── LoginPage.java
+* │    ├── ProductsPage.java
+* │    ├── CartPage.java
+* │    ├── CheckoutInformationPage.java
+* │    ├── CheckoutOverviewPage.java
+* │    └── CheckoutCompletePage.java
+* ├── tests
+* │    ├── LoginTests.java
+* │    ├── CartTests.java
+* │    └── CheckoutTests.java
 
 🧠 Design Principles
 Page Object Model for separation of concerns
@@ -66,10 +66,10 @@ Blank login validation
 * Verify order confirmation message
 
 🔄 Manual to Automation Mapping
-Manual Test Case   * Automated Method
-TC_LOGIN_01	       * testValidLogin()
-TC_CART_01        	* testAddSingleProductToCart()
-TC_CHECKOUT_04	    * testCompleteCheckoutFlow()
+* Manual Test Case  -> Automated Method
+* TC_LOGIN_01	      -> testValidLogin()
+* TC_CART_01        ->	testAddSingleProductToCart()
+* TC_CHECKOUT_04	   -> testCompleteCheckoutFlow()
 
 ▶️ How to Run the Project
 * Clone the repository
