@@ -73,6 +73,6 @@ TC_CHECKOUT_04	    * testCompleteCheckoutFlow()
 
 ▶️ How to Run the Project
 * Clone the repository
-*Open in IntelliJ / Eclipse
-*Run testng.xml or individual test classes
-*Maven command: mvn clean test
+* Open in IntelliJ / Eclipse
+* Run testng.xml or individual test classes
+* Maven command: mvn clean test
