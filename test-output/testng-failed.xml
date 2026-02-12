@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_java_automation.SwagLabs.Login_Test_cases">
+      <class name="tests.Login_Test_cases">
         <methods>
-          <include name="testInvalidPassword"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testBlankLogin"/>
         </methods>
-      </class> <!-- selenium_java_automation.SwagLabs.Login_Test_cases -->
+      </class> <!-- tests.Login_Test_cases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
