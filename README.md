@@ -50,7 +50,7 @@ Page Object Model for separation of concerns
 🔐 Login Tests
 * Valid login
 * Invalid password
-Blank login validation
+* Blank login validation
 * Locked user validation
 
 🛒 Cart Tests
